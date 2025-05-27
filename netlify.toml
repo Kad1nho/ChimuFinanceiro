@@ -1,7 +1,6 @@
 [build]
-  # 1) aplica migrações no Supabase
-  # 2) roda o build do Next.js
-  command = "npx prisma migrate deploy && npm run build"
+- command = "npx prisma migrate deploy && npm run build"
++ command = "npm run build"
   publish = ".next"
 
 [[plugins]]
